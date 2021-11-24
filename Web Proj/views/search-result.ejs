@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Search books</title>
+    </head>
+<body>
+<h1>Berite's Book Shop:Search</h1>
+<ul>
+   <% books.forEach(function(book) { %> 
+<li><%= book.name %> <span> £<%= book.price %></span></li>
+
+ <% }) %> 
+   </ul>
+</body>
+</html>
